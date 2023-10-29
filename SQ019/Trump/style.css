@@ -1,0 +1,85 @@
+/* general style for the Body of the w */
+body { 
+    background-color: rgb(238, 244, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* used as a container to maintain a fixed margin and width to the bosy of the work */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* style patterning to just the header of the page */
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    color:antiquewhite;
+    border-top: 1px solid #0000EE;
+    border-bottom: 1px solid #0000EE;
+
+}
+
+/* style for navigation on the header of the page */
+nav a{
+    text-decoration: none;
+    margin: 32px;
+    color: #0000EE
+}
+
+/* style for the 1st section class containing the 1st image and Tribute Article */
+.place-1{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+/* style for the "h1 tag" contained in the article */
+.place-1 h1{
+    margin-left: 48px;
+    color: #0000EE;
+}
+
+/* style for the "p tag" nested in the "h1 tag" contained in the article */
+.place-1 p{
+    line-height: 30px;
+    margin-left: 48px;
+}
+
+/* style for the 2st section class containing the 2nd image and Quote */
+.place-2{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* style for 2nd Image under the 2nd section tag */
+.trump2{
+    width: 600px;
+    float: right;
+}
+
+/* style for the Quote under the 2nd section tag */
+q{
+    font-size: medium;
+    font-style: italic;
+    display: inline-block;
+    margin-right: 32px;
+    margin-top: 85px;
+    font-size: 32px;
+    text-align: center;
+    color: #0000EE;
+}
+
+/* style for the footer of the Page */
+footer {
+    text-align: center;
+    background-color:white;
+    color:#0000EE;
+    padding: 20px;
+    margin-top: 32px;
+    border-top: 1px solid #0000EE;
+    border-bottom: 1px solid #0000EE;
+
+}

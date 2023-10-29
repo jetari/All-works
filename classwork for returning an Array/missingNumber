@@ -1,0 +1,19 @@
+// Your task is to implement a function missingNumber that returns the missing number in a given integer array between 1 and 9. If there is no missing number, the function should return false.
+// Here is the complete specification for missingNumber:
+// missingNumber(arr)
+// Parameters:
+// arr: Array - an array of integers.
+// Examples
+// Sample                                       Return value  missingNumber([1,2,3,4,6,7,8,9])                  5  missingNumber([1,2,3,4,5,6,7,8])                  9  missingNumber([1,2,3,4,5,6,7,8,9])               false
+
+// function missingNumber(arr) {                } 
+
+let mainArray = [1,2,3,4,6,7,8,9];
+function missingNumber(arr) {
+    // let mainArray = [1, 2, 3, 4, 6, 7, 8, 9];
+
+    // for (let i = 0; i < arr.length; i++){
+
+    }
+
+console.log(mainArray.toString());
